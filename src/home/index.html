@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <!-- navbar -->
     <nav class="bg-gray-800">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div class="relative flex h-16 items-center justify-between">
@@ -60,7 +61,9 @@
           </div>
         </div>
     </nav>
+    <!-- end navbar -->
 
+    <!-- hero section -->
     <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 dark:bg-gray-900">
       <div class="p-8 md:p-12 lg:px-16 lg:py-24">
           <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
@@ -98,6 +101,150 @@
             class="h-56 w-full object-cover sm:h-full"
       />
     </section>
+    <!-- end hero section -->
+
+    <!-- about section -->
+    <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row lg:space-x-8">
+        <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
+            <h2 class="font-header text-4xl font-semibold uppercase text-pink-600 sm:text-5xl lg:text-6xl">
+                About Me.
+            </h2>
+            <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+                I'm Natchanan Kamthanapipat, a Student in Burapha University
+            </h4>
+        </div>
+
+        <!-- info -->
+        <div class="flow-root w-full pt-10 sm:w-3/4 lg:w-2/5 lg:pt-0">
+            <dl class="divide-y divide-gray-100 text-sm">
+                <div class="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900">Title</dt>
+                    <dd class="text-gray-700 sm:col-span-2">Miss</dd>
+                </div>
+                <div class="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900">Age</dt>
+                    <dd class="text-gray-700 sm:col-span-2">20</dd>
+                </div>
+                <div class="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900">Birth Date</dt>
+                    <dd class="text-gray-700 sm:col-span-2">17 September 2004</dd>
+                </div>
+                <div class="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900">Email</dt>
+                    <dd class="text-gray-700 sm:col-span-2">66160023@go.buu.ac.th</dd>
+                </div>
+                <div class="grid grid-cols-1 gap-1 py-3 even:bg-gray-50 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900">Location</dt>
+                    <dd class="text-gray-700 sm:col-span-2">Chonburi, Thailand</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+
+    <!-- education background -->
+    <div class="container py-16 md:py-20" id="education">
+        <h2 class="text-center font-header text-4xl font-semibold uppercase text-pink-600 sm:text-5xl lg:text-6xl">
+          Education Background.
+        </h2>
+      
+        <div class="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
+          <span class="left-2/5 absolute inset-y-0 ml-10 hidden w-0.5 bg-grey-40 md:block"></span>
+      
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-start">
+                <span class="shrink-0">
+                  <img src="/assets/img/logo-spotify.svg" class="h-auto w-32" alt="school logo">
+                </span>
+                <div class="relative ml-3 hidden w-full md:block">
+                  <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+      
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40">Apr 2015 - Mar 2018</span>
+                    <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Maptaputphanpittayakarn School</span>
+                    <div class="pt-2">
+                      <span class="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
+                        venenatis enim.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-start">
+                <span class="shrink-0">
+                  <img src="/assets/img/logo-microsoft.svg" class="h-auto w-32" alt="school logo">
+                </span>
+                <div class="relative ml-3 hidden w-full md:block">
+                  <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+      
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40">Mar 2018 - September 2019</span>
+                    <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Software Engineer</span>
+                    <div class="pt-2">
+                      <span class="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
+                        venenatis enim.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-start">
+                <span class="shrink-0">
+                  <img src="/assets/img/logo-fedex.svg" class="h-auto w-32" alt="school logo">
+                </span>
+                <div class="relative ml-3 hidden w-full md:block">
+                  <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+      
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40">October 2019 - Feb 2021</span>
+                    <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">DevOps Engineer</span>
+                    <div class="pt-2">
+                      <span class="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
+                        venenatis enim.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end education background -->
+    <!-- end about section -->
+
       
 </body>
 </html>
